@@ -77,10 +77,15 @@ img {
 }
 
 .basketList{
+    display: none;
     position: absolute;
     left: 40%;
     top: 20px;
     margin: 0 auto;
     width: 200px;
     background-color: grey;
+}
+
+.visible{
+    display: block;
 }

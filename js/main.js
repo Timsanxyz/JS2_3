@@ -122,11 +122,7 @@ let basketDiv = document.querySelector('.basketList');
 let btn = document.querySelector('.btn-cart');
 
 btn.addEventListener('click', function (){
-    if (basketDiv.style.display == "none") {
-        basketDiv.style.display = 'block';
-    }else{
-        basketDiv.style.display = 'none';
-    }
+    basketDiv.classList.toggle('visible');
     console.log('click');
 });
 
